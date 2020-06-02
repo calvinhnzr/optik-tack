@@ -23,7 +23,7 @@ Mit der Installation von Node.js kommt der Paketmanager npm automatisch mit. Die
 
 ### Installation
 
-1. Fügen Sie den Ordner `optik-tack-gatsby` Ihrem Schreibtisch hinzu und öffnen Sie ihn mit Ihrer präferierten Entwicklungsumgebung. Empfohlen ist Visual Studio Code: [code.visualstudio.com](https://code.visualstudio.com/)
+1. Fügen Sie den Ordner `optik-tack-master` Ihrem Schreibtisch hinzu und öffnen Sie ihn mit Ihrer präferierten Entwicklungsumgebung. Empfohlen ist Visual Studio Code: [code.visualstudio.com](https://code.visualstudio.com/)
 
 2. Öffnen Sie das Terminal ihres Betriebsystems und geben Sie folgenden Befehl ein. Es wird der der Gatsby Client installiert. Es ist notwendig ihn global zu installieren.
 
@@ -43,10 +43,10 @@ ls
 cd schreibtisch
 ```
 
-5. Geben Sie folgenden Befehl ein, um in den Ordner `opik-tack-gatsby` zu gelangen.
+5. Geben Sie folgenden Befehl ein, um in den Ordner `opik-tack-master` zu gelangen.
 
 ```
-cd optik-tack-gatsby
+cd optik-tack-master
 ```
 
 6. Um die benötigten Node Module zu installieren, geben Sie folgenden Befehl ein.
