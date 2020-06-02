@@ -4,19 +4,19 @@ Abschlussprüfung Sommer 2020
 
 ## Loslegen
 
-`[HINWEIS] Falls sie Probleme mit der Installation haben sollten, finden Sie unter folgenden Links den Quellcode sowie eine Live-Version der Website.`
+`[HINWEIS] Falls Sie Probleme mit der Installation haben sollten, finden Sie unter folgenden Links den Quellcode sowie eine Live-Version der Website. Die Website lässt sich außerdem als PWA installieren.`
 
-[Repository](https://github.com/calvinhnzr/optik-tack)
+[Quellcode](https://github.com/calvinhnzr/optik-tack)
 
-[Live Demo](https://optik-tack.netlify.app/)
+[Live Demo](https://optik-tack.app/)
 
-`[HINWEIS] Die Website wurde für die aktuellste Version des Chrome Browsers optimiert und ist daher zu empfehlen.`
+`[HINWEIS] Die Website wurde für die aktuellste Version des Chrome Browsers erstellt und optimiert und ist daher zu empfehlen.`
 
 [Google Chrome Browsers](https://www.google.com/intl/de/chrome/)
 
-Bitte führen Sie folgende Schritte aus, um die Website lokal aufzuführen. Für die Entwicklung der Website habe ich ausschließlich mit den Ordnern `src` und `static` gearbeitet. Andere Ordner und Dateien sind entweder automatisch generiert oder vom Starter Theme vorgegeben und sollten nicht verändert werden.
+Bitte führen Sie folgende Schritte aus, um die Website lokal aufzuführen. Für die Entwicklung der Website habe ich ausschließlich mit den Verzeichnissen `src` und `static` gearbeitet. Andere Ordner und Dateien sind entweder automatisch generiert oder vom Starter Theme vorgegeben und sollten nicht verändert werden.
 
-Für die Entwicklung der Website habe ich das [Gatsby Starter Default Theme](https://github.com/gatsbyjs/gatsby-starter-default) verwendet. Dies enthält bereits einige nützliche Plugins sowie Konfigurationen.
+Für die Entwicklung der Website habe ich das Framework [Gatsby](https://www.gatsbyjs.org/) sowie ein [Starter Theme](https://github.com/gatsbyjs/gatsby-starter-default) verwendet. Das Starter Theme enthält einige nützliche Plugins sowie Konfigurationen.
 
 ### Voraussetzungen
 
@@ -29,7 +29,7 @@ Mit der Installation von Node.js kommt der Paketmanager npm automatisch mit. Die
 
 1. Fügen Sie den Ordner `optik-tack-master` Ihrem Schreibtisch hinzu und öffnen Sie ihn mit Ihrer präferierten Entwicklungsumgebung. Empfohlen ist Visual Studio Code: [code.visualstudio.com](https://code.visualstudio.com/)
 
-2. Öffnen Sie das Terminal ihres Betriebsystems und geben Sie folgenden Befehl ein. Es wird der der Gatsby Client installiert. Es ist notwendig ihn global zu installieren.
+2. Öffnen Sie das Terminal ihres Betriebsystems und geben Sie folgenden Befehl ein, um den Gatsby Client zu installieren. Die Eingabe des Admin-Passworts könnte erfolderlich sein.
 
 ```
 sudo npm install -g gatsby-cli
@@ -89,13 +89,11 @@ gatsby serve -H 192.168.0.1 -p 9001
 
 ## Entwicklung
 
-Um die lokale Entwicklungsumgebung zu starten, geben Sie folgenden Befehl ein.
+Um die lokale Entwicklungsumgebung zu starten, geben Sie folgenden Befehl ein. Der Entwickler-Modus entält einige hilfreiche Debug-Tools.
 
 ```
 gatsby develop
 ```
-
-Dieser Modus entält einige hilfreiche Debug-Tools
 
 ## Ordner Struktur
 
@@ -120,7 +118,7 @@ In dem Gatsby Projekt finden wir einige Ordner und Dateien. Im folgenden werde i
 
 3. `/src` Enthält sämtliche JavaScript und CSS Dateien die vom Autor erstellt worden sind. Dazu später mehr.
 
-4. `/static` Enthält Datei die nicht vom Build Prozess beeinflusst werden sollen. Hier befinden sich Schriften und das Favicon.
+4. `/static` Enthält Dateien die nicht vom Build Prozess beeinflusst werden. Bespielsweise Schriften.
 
 5. `gatsby-config.js` Benötigt um u.a. Gatsby Plugins zu konfigurieren und Metadaten wie `title` oder `discription` zu setzen.
 
@@ -148,7 +146,7 @@ Im folgenden werde ich den Aufbau des `src` Ordners erläutern.
 
 5. `/styles` Globale Styles wie Fonts oder Reset.
 
-6. `html.js` Automatisch erzeugt. Entält Daten über den Head.
+6. `html.js` Automatisch erzeugt und editierbar. Entält Daten über das HTML Dokument sowie das Head-Element.
 
 ## Verwendete Technologien
 
