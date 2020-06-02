@@ -4,11 +4,15 @@ Abschlussprüfung Sommer 2020
 
 ## Loslegen
 
-`[HINWEIS] Falls sie Probleme mit der Installation haben sollten, finden Sie unter folgenden Links den Quellcode sowie eine Live-Version der Website`
+`[HINWEIS] Falls sie Probleme mit der Installation haben sollten, finden Sie unter folgenden Links den Quellcode sowie eine Live-Version der Website.`
 
 [Repository](https://github.com/calvinhnzr/optik-tack)
 
 [Live Demo](https://optik-tack.netlify.app/)
+
+`[HINWEIS] Die Website wurde für die aktuellste Version des Chrome Browsers optimiert und ist daher zu empfehlen.`
+
+[Google Chrome Browsers](https://www.google.com/intl/de/chrome/)
 
 Bitte führen Sie folgende Schritte aus, um die Website lokal aufzuführen. Für die Entwicklung der Website habe ich ausschließlich mit den Ordnern `src` und `static` gearbeitet. Andere Ordner und Dateien sind entweder automatisch generiert oder vom Starter Theme vorgegeben und sollten nicht verändert werden.
 
