@@ -1,0 +1,71 @@
+.container {
+  grid-column: 1 / 13;
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: blur(6px);
+  }
+  .slider {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0;
+    input {
+      margin: 0.5rem auto 1.5rem;
+      -webkit-appearance: none;
+      width: 17.5rem;
+      height: 6px;
+      outline: none;
+      transform: rotate(180deg);
+      border-radius: 1rem;
+      &::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 1.5rem;
+        height: 1.5rem;
+        background: #000;
+        cursor: pointer;
+        border-radius: 50%;
+      }
+      &::-moz-range-thumb {
+        width: 1.5rem;
+        height: 1.5rem;
+        background: #000;
+      }
+    }
+
+    label {
+      font-family: "Aleo";
+      text-align: center;
+      font-size: 1.3rem;
+      line-height: 1.2;
+      color: hsl(0, 0%, 50%);
+    }
+  }
+}
+@media only screen and (min-width: 900px) {
+  .container {
+    grid-column: 3 / 11;
+    img {
+      grid-column: 1 / 13;
+    }
+    .slider {
+      grid-column: 1 / 13;
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    display: none;
+    grid-column: 5 / 10;
+    img {
+      // filter: blur(0) !important;
+    }
+    .slider {
+      // add a scroll event later
+      // display: none;
+    }
+  }
+}

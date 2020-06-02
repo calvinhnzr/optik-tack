@@ -1,0 +1,10 @@
+.layout {
+  display: grid;
+  overflow-x: hidden;
+  grid-template-columns:
+    [full-start] minmax(2rem, 1fr)
+    [main-start] minmax(0, 1280px) [main-end]
+    minmax(2rem, 1fr) [full-end];
+  grid-template-rows: repeat(8, auto);
+  position: relative;
+}

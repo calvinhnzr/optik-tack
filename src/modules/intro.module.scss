@@ -1,0 +1,29 @@
+.intro {
+  grid-column: full;
+  background-color: #ffe6a6;
+  blockquote {
+    margin: 0 auto;
+    padding: 3rem 0;
+
+    p {
+      font-family: "Aleo" !important;
+      font-style: italic;
+      font-size: 3rem;
+      line-height: 1.3;
+      color: #000;
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .intro {
+    blockquote {
+      p {
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+}

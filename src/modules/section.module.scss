@@ -1,0 +1,11 @@
+.section {
+  grid-column: main;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+@media only screen and (min-width: 1200px) {
+  .section {
+    grid-template-columns: repeat(13, 1fr);
+  }
+}

@@ -1,0 +1,180 @@
+.summer {
+  grid-column: full;
+  background-color: #ffe6a6;
+  padding: 4rem 0;
+  margin-bottom: 4rem;
+  position: relative;
+  .intro {
+    margin: 0 2rem;
+    h2 {
+      font-family: "Lato";
+      font-size: 3rem;
+      line-height: 1.2;
+      font-weight: 800;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-family: "Lato";
+      font-size: 1.5rem;
+      line-height: 1.3;
+    }
+  }
+  .carousel {
+    padding: 4rem 0 3rem;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    &::before {
+      content: "";
+      min-width: 2rem;
+    }
+    &::after {
+      content: "";
+      min-width: 2rem;
+    }
+    &::-webkit-scrollbar {
+      display: none;
+      scrollbar-width: none;
+    }
+    .block {
+      height: 22rem;
+      display: flex;
+      flex-direction: column;
+      margin-right: 2rem;
+      flex: 0 0 auto;
+      width: auto;
+      width: 100%;
+      width: calc(100% - 6rem);
+      padding: 0;
+      position: relative;
+      border-radius: 5px;
+      box-shadow: 0px 6px 25px 0px rgba(0, 0, 0, 0.2);
+      &:last-of-type {
+        margin: 0 !important;
+      }
+      &:nth-child(odd) {
+        background-color: #63b1dc;
+      }
+      &:nth-child(even) {
+        background-color: #26354b;
+      }
+      div {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+        background-image: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 0%,
+          rgba(0, 0, 0, 0.5) 60%,
+          rgba(0, 0, 0, 0.5) 100%
+        );
+      }
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+      h4 {
+        position: absolute;
+        bottom: 0;
+        padding: 1.5rem;
+        font-family: "Lato";
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 1.3;
+        color: #fff;
+        z-index: 1;
+      }
+    }
+  }
+  .progressContainer {
+    width: calc(100% - 4rem);
+    height: 6px;
+    border-radius: 1rem;
+    background-color: hsla(0, 0%, 0%, 0.2);
+    margin: 0 2rem;
+    .progressBar {
+      height: 6px;
+      background: #000;
+      object-fit: cover;
+      width: calc(100% / 6);
+      width: "";
+      border-radius: 1rem;
+    }
+  }
+  .label {
+    margin: 1.5rem 0 0;
+    font-family: "Aleo";
+    font-size: 1.3rem;
+    color: #000;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .summer {
+    grid-column: main;
+    .intro {
+      margin: 0;
+
+      h2 {
+        font-size: 4rem;
+        br {
+          display: none;
+        }
+      }
+      p {
+        br {
+          display: none;
+        }
+      }
+    }
+    .carousel {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 2rem;
+
+      &::before {
+        content: "";
+        display: none;
+      }
+      &::after {
+        content: "";
+        display: none;
+      }
+      .block {
+        grid-column: span 3;
+        width: 100%;
+        height: 28rem;
+        box-shadow: none;
+      }
+    }
+    .progressContainer {
+      display: none;
+    }
+    .label {
+      display: none;
+    }
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .summer {
+    padding: 8rem 0;
+    margin-bottom: 0;
+    .intro {
+      p {
+        font-size: 3rem;
+      }
+    }
+    .carousel {
+      .block {
+        grid-column: span 2;
+        h4 {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+}
