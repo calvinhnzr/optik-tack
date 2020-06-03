@@ -31,7 +31,7 @@ Mit der Installation von Node.js kommt der Paketmanager npm automatisch mit. Die
 
 1. Fügen Sie den Ordner `optik-tack-master` Ihrem Schreibtisch hinzu und öffnen Sie ihn mit Ihrer präferierten Entwicklungsumgebung. Empfohlen ist Visual Studio Code: [code.visualstudio.com](https://code.visualstudio.com/)
 
-2. Öffnen Sie das Terminal ihres Betriebsystems und geben Sie folgenden Befehl ein, um den Gatsby Client zu installieren. Die Eingabe des Admin-Passworts könnte erfolderlich sein.
+2. Öffnen Sie das Terminal ihres Betriebsystems und geben Sie folgenden Befehl ein, um den Gatsby Client zu installieren. Die Eingabe des Admin-Passworts könnte erforderlich sein.
 
 ```
 sudo npm install -g gatsby-cli
@@ -112,19 +112,19 @@ In dem Gatsby Projekt finden wir einige Ordner und Dateien. Im folgenden werde i
 |-- package.json
 ```
 
-0. `/node_modules` Vorhin heruntergeladene Node Module.
+1. `/node_modules` Vorhin heruntergeladene Node Module.
 
-1. `/.cache` Automatisch erzeugt. Speichert den namengebenden cache des Gatsby Projekts.
+2. `/.cache` Automatisch erzeugt. Speichert den namensgebenden cache des Gatsby Projekts.
 
-2. `/public` Automatisch erzeugt. Speichert den Output nach dem Build Prozess.
+3. `/public` Automatisch erzeugt. Speichert den Output nach dem Build Prozess.
 
-3. `/src` Enthält sämtliche JavaScript und CSS Dateien die vom Autor erstellt worden sind. Dazu später mehr.
+4. `/src` Enthält sämtliche JavaScript und CSS Dateien die vom Autor erstellt worden sind. Dazu später mehr.
 
-4. `/static` Enthält Dateien die nicht vom Build Prozess beeinflusst werden. Bespielsweise Schriften.
+5. `/static` Enthält Dateien die nicht vom Build Prozess beeinflusst werden. Bespielsweise Schriften.
 
-5. `gatsby-config.js` Benötigt um u.a. Gatsby Plugins zu konfigurieren und Metadaten wie `title` oder `discription` zu setzen.
+6. `gatsby-config.js` Benötigt um u.a. Gatsby Plugins zu konfigurieren und Metadaten wie `title` oder `discription` zu setzen.
 
-6. `package.json` Übersicht verwendeter Plugins, Technologien und Skripte.
+7. `package.json` Übersicht verwendeter Plugins, Technologien und Skripte.
 
 Im folgenden werde ich den Aufbau des `src` Ordners erläutern.
 
@@ -138,7 +138,7 @@ Im folgenden werde ich den Aufbau des `src` Ordners erläutern.
 |-- html.js
 ```
 
-1. `/components` Dieser Ordner enthält sämtliche React-Komponenten. Vergleichbar mit verschiedenen Bereiche einer HTML Datei.
+1. `/components` Dieser Ordner enthält sämtliche React-Komponenten. Vergleichbar mit verschiedenen Bereichen einer HTML Datei.
 
 2. `/images` Verwendete Bilder und Grafiken.
 
