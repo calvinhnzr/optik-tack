@@ -14,16 +14,18 @@ Abschlussprüfung Sommer 2020
 
 [Google Chrome Browsers](https://www.google.com/intl/de/chrome/)
 
-Bitte führen Sie folgende Schritte aus, um die Website lokal aufzuführen. Für die Entwicklung der Website habe ich ausschließlich mit den Verzeichnissen `src` und `static` gearbeitet. Andere Ordner und Dateien sind entweder automatisch generiert oder vom Starter Theme vorgegeben und sollten nicht verändert werden.
+Für die Entwicklung der Website habe ich ausschließlich mit den Verzeichnissen `src` und `static` gearbeitet. Andere Ordner und Dateien sind entweder automatisch generiert oder vom Starter Theme vorgegeben und sollten nicht verändert werden.
 
-Für die Entwicklung der Website habe ich das Framework [Gatsby](https://www.gatsbyjs.org/) sowie ein [Starter Theme](https://github.com/gatsbyjs/gatsby-starter-default) verwendet. Das Starter Theme enthält einige nützliche Plugins sowie Konfigurationen.
+Für die Entwicklung der Website habe ich das Framework [Gatsby](https://www.gatsbyjs.org/) sowie ein [Starter Theme](https://github.com/gatsbyjs/gatsby-starter-default) verwendet. Das Starter Theme enthält einige nützliche Plugins und Konfigurationen.
+
+Bitte führen Sie folgende Schritte aus, um die Website lokal aufzuführen.
 
 ### Voraussetzungen
 
 #### Installieren Sie Node und npm
 
 Node.js ist eine JavaScript-Laufzeitumgebung, die für die Verwendung von Gatsby notwendig ist.
-Mit der Installation von Node.js kommt der Paketmanager npm automatisch mit. Die aktuellste version können Sie unter folgender Adresse herunterladen und Installieren: [nodejs.org](https://nodejs.org)
+Mit der Installation von Node.js kommt der Paketmanager npm automatisch mit. Die aktuellste Version können Sie unter folgender Adresse herunterladen und installieren: [nodejs.org](https://nodejs.org)
 
 ### Installation
 
