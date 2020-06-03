@@ -91,7 +91,7 @@ gatsby serve -H 192.168.0.1 -p 9001
 
 ## Entwicklung
 
-Um die lokale Entwicklungsumgebung zu starten, geben Sie folgenden Befehl ein. Der Entwickler-Modus entält einige hilfreiche Debug-Tools.
+Um die lokale Entwicklungsumgebung zu starten, geben Sie folgenden Befehl ein. Der Entwickler-Modus enthält einige hilfreiche Debug-Tools.
 
 ```
 gatsby develop
