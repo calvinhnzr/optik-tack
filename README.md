@@ -170,7 +170,7 @@ Package Manager: npm
 4. [gatsby-plugin-manifest](https://www.gatsbyjs.org/packages/gatsby-plugin-manifest/?=gatsby-plugin-manifest)
 5. [gatsby-plugin-offline](https://www.gatsbyjs.org/packages/gatsby-plugin-manifest/?=gatsby-plugin-offline)
 6. [gatsby-plugin-react-helmet](https://www.gatsbyjs.org/packages/gatsby-plugin-react-helmet/?=gatsby-plugin-react-helmet)
-7. [gatsby-plugin-sas](https://www.gatsbyjs.org/packages/gatsby-plugin-sass/?=gatsby-plugin-sass)
+7. [gatsby-plugin-sass](https://www.gatsbyjs.org/packages/gatsby-plugin-sass/?=gatsby-plugin-sass)
 8. [gatsby-plugin-sharp](https://www.gatsbyjs.org/packages/gatsby-plugin-sass/?=gatsby-plugin-sharp)
 9. [gatsby-source-filesystem](https://www.gatsbyjs.org/packages/gatsby-source-filesystem/?=gatsby-source-filesystem)
 10. [gatsby-transformer-sharp](https://www.gatsbyjs.org/packages/gatsby-transformer-sharp/?=gatsby-transformer-sharp)
