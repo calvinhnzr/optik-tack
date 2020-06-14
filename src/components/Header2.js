@@ -4,6 +4,7 @@ import { FaPlay, FaPause } from "react-icons/fa"
 import headerStyles from "../modules/header.module.scss"
 
 const Header2 = (props) => {
+  // slider by @mistlav, https://codepen.io/mistlav/pen/wJXpXg
   const data = useStaticQuery(graphql`
     query {
       slide1: file(relativePath: { eq: "slider/01-familie-im-auto.jpg" }) {
