@@ -5,12 +5,12 @@ module.exports = {
     author: `Calvin Hinzer`,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-98664399-2",
-      },
-    },
+    //{
+    //  resolve: `gatsby-plugin-google-analytics`,
+    //  options: {
+    //    trackingId: "UA-98664399-2",
+    //  },
+    //},
     `gatsby-plugin-react-helmet`,
 
     {
