@@ -2,6 +2,8 @@
 
 Abschlussprüfung Sommer 2020
 
+Ausbildung zum Mediengestalter Digital und Print
+
 ## Loslegen
 
 `[HINWEIS] Falls Sie Probleme mit der Installation haben sollten, finden Sie unter folgenden Links den Quellcode sowie eine Live-Version der Website. Die Website lässt sich außerdem als PWA installieren.`
