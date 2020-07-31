@@ -156,7 +156,7 @@ Im folgenden werde ich den Aufbau des `src` Ordners erläutern.
 
 Framework: GatsbyJS
 
-Libraby: ReactJS
+Library: ReactJS
 
 Query Language: GraphQL
 
